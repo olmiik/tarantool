@@ -61,7 +61,7 @@ deps_debian:
 	apt-get update ${APT_EXTRA_FLAGS} && apt-get install -y -f \
 		build-essential cmake coreutils sed \
 		libreadline-dev libncurses5-dev libyaml-dev libssl-dev \
-		libcurl4-openssl-dev libunwind-dev libicu-dev \
+		libcurl4-openssl-dev libunwind-dev libicu-dev libbsd-dev\
 		python python-pip python-setuptools python-dev \
 		python-msgpack python-yaml python-argparse python-six python-gevent \
 		lcov ruby clang llvm llvm-dev zlib1g-dev autoconf automake libtool
