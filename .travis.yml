@@ -111,7 +111,7 @@ deploy:
   script: make -f .travis.mk bintray_deploy
   skip_cleanup: true
   file: extra/bintray/descriptor.json
-  user: bigbes
+  user: olmiik
   key: "${BINTRAY_API_KEY}"
   on:
     repo: olmiik/tarantool
