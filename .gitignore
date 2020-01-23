@@ -150,3 +150,5 @@ src/box/sql/parse.h
 src/box/sql/parse.c
 src/box/sql/opcodes.h
 src/box/sql/opcodes.c
+
+extra/bintray/descriptor.json

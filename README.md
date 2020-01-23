@@ -1,12 +1,13 @@
 # Tarantool
 
 [![Build Status][travis-badge]][travis-url]
-[![Build Status][gitlab-ci-badge]][gitlab-ci-url]
-[![Code Coverage][coverage-badge]][coverage-url]
 [![Telegram][telegram-badge]][telegram-url]
 [![Slack][slack-badge]][slack-url]
 [![Gitter][gitter-badge]][gitter-url]
 [![Google Groups][groups-badge]][groups-url]
+
+[![Latest Source .tar.gz][bintray-src-badge]][bintray-src-url]
+
 
 https://tarantool.io/en/
 
@@ -53,12 +54,10 @@ list, tarantool@googlegroups.com.
 
 Thank you for your interest in Tarantool!
 
-[travis-badge]: https://api.travis-ci.org/tarantool/tarantool.svg?branch=master
+[travis-badge]: https://api.travis-ci.org/tarantool/tarantool.svg?branch=2.1
 [travis-url]: https://travis-ci.org/tarantool/tarantool
-[gitlab-ci-badge]: https://gitlab.com/tarantool/tarantool/badges/master/pipeline.svg
-[gitlab-ci-url]: https://gitlab.com/tarantool/tarantool/commits/master
-[coverage-badge]: https://coveralls.io/repos/github/tarantool/tarantool/badge.svg?branch=master
-[coverage-url]: https://coveralls.io/github/tarantool/tarantool?branch=master
+[coverage-badge]: https://coveralls.io/repos/github/tarantool/tarantool/badge.svg?branch=2.1
+[coverage-url]: https://coveralls.io/github/tarantool/tarantool?branch=2.1
 [groups-badge]: https://img.shields.io/badge/Google-Groups-orange.svg
 [groups-url]: https://groups.google.com/forum/#!forum/tarantool
 [telegram-badge]: https://img.shields.io/badge/Telegram-join%20chat-blue.svg
@@ -67,3 +66,5 @@ Thank you for your interest in Tarantool!
 [slack-url]: http://slack.tarantool.org/
 [gitter-badge]: https://badges.gitter.im/Join%20Chat.svg
 [gitter-url]: https://gitter.im/tarantool/tarantool
+[bintray-src-badge]: https://api.bintray.com/packages/picodata/source/tarantool/images/download.svg
+[bintray-src-url]: https://bintray.com/picodata/source/tarantool/_latestVersion
