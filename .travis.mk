@@ -202,11 +202,11 @@ ifeq ($(MINOR_VERSION),1)
 BUCKET=tarantool.$(MAJOR_VERSION)x.src
 endif
 
-bintray_deploy:
-	python3 extra/bintray/generate-descriptor.py
-
 source_deploy:
 	pip install awscli --user
 	aws --endpoint-url "${AWS_S3_ENDPOINT_URL}" s3 \
 		cp build/*.tar.gz "s3://${BUCKET}/" \
 		--acl public-read
+
+bintray_deploy:
+	python3 extra/bintray/generate-descriptor.py
